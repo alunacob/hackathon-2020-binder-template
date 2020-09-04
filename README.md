@@ -13,6 +13,8 @@ To create your own repository:
 
 - create a **public** repository on GitHub 
 - copy the contents of this repo in that repository 
+- update the `environment.yml` with the conda packages required to run the notebook(s)
+- create one or more notebooks to support the BETTER Hackathon 2020 activities
 - update the `README.md` file to update the Binder badge repository URL:
 
 `https://mybinder.org/v2/gh/ec-better/{your repository name}/master?urlpath=lab`
