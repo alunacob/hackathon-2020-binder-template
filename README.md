@@ -22,6 +22,18 @@ dependencies:
   - ipykernel
 ```
 
+Add any additional conda dependency with a new line after ` - ipykernel`, e.g.:
+
+```yaml
+name: env_better
+channels:
+  - conda-forge
+  - terradue
+dependencies:
+  - ipykernel
+  - gdal
+```
+
 **Don'ts**
 
 - Don't change the environment name, leave `env_better`
@@ -62,3 +74,7 @@ Binder runs the experiments for free with computing resources provided by Google
 The notebook must target a computing environment with 2 GB of RAM
 
 After some inactivity, the docker container is culled. 
+
+## Additional guidelines
+
+There are a few knowledge base entries here https://knowledge.terradue.com/display/ELLIP/Ellip+Notebooks+user+guides showing how to common tasks with a Notebook 
