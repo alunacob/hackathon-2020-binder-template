@@ -7,6 +7,16 @@
 
 ## Using this template
 
+This software repository contains a template for running a notebook on Binder.
+
+To create your own repository:
+
+- create a **public** repository on GitHub 
+- copy the contents of this repo in that repository 
+- update the `README.md` file to update the Binder badge repository URL:
+
+`https://mybinder.org/v2/gh/ec-better/{your repository name}/master?urlpath=lab`
+
 ### Setting the conda environment and the Jupyter kernel to run the notebook
 
 The conda environment and associated kernel is defined in the file `environment.yml` under the `.binder` folder.
