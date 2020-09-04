@@ -56,3 +56,9 @@ More info here: https://mybinder.readthedocs.io/en/latest/using.html#share-compu
 
 - Don't change docker file
 
+## Computing resources
+
+Binder runs the experiments for free with computing resources provided by Google Cloud, OVH, GESIS Notebooks and the Turing Institute.
+The notebook must target a computing environment with 2 GB of RAM
+
+After some inactivity, the docker container is culled. 
