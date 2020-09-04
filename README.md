@@ -9,7 +9,7 @@
 
 ### Setting the conda environment and the Jupyter kernel to run the notebook
 
-The conda environment and associated kernel is defined in the file `environment.yml`.
+The conda environment and associated kernel is defined in the file `environment.yml` under the `.binder` folder.
 
 The template provides an minimum set of python modules to run the template notebook example.
 
@@ -43,3 +43,16 @@ dependencies:
   - pillow
   - ipykernel
 ```
+
+## Understanding the contents of the `.binder` folder
+
+The `.binder` folder contains a docker file that sets the conda environment and associated kernel.
+
+If you need additional steps, you can create a bash script named `postBuild`. There's an example here: https://github.com/binder-examples/jupyterlab/blob/master/binder/postBuild
+
+More info here: https://mybinder.readthedocs.io/en/latest/using.html#share-computational-work-or-papers
+
+**Don'ts**
+
+- Don't change docker file
+
